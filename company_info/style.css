@@ -1,0 +1,43 @@
+header{
+    background-color: brown;
+    padding:10px;
+    text-align: center;
+    margin: 5px;
+}
+nav,ul,li{
+    display:inline-flex;
+padding: 3px;
+background-color: blueviolet;
+margin:5px;
+
+
+}
+nav{
+  width: 100%;
+}
+
+li:hover{
+    background-color:chocolate;
+    size: 20px;
+}
+h2{
+text-align: center;
+}
+
+img{
+    padding: 20px;
+}
+    .main:after{
+        content: "";
+        display: table;
+        clear:both;
+    }
+    .main{
+        display: flex;
+    }
+    .sub1{
+        width: 50%;
+        float: left;
+        padding: 50px;
+    }
+    
