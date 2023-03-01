@@ -1,0 +1,47 @@
+ body{ 
+    background-image:url(1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table{
+    border-color: aliceblue;
+    align-content: center;
+}
+table{
+    background-color: white;
+    padding: 40px;;
+    border-radius: 10px;
+    margin: 10px 20px 10px 20px;
+}
+button{
+    
+}
+h1{
+    text-align: center;
+}
+label{
+    padding: 10px;
+    color: black;
+    
+}
+input ,textarea{
+    padding: 7px;
+    border-radius: 1px;
+    color: brown;
+    width: 50%;
+    height: 40%
+    padding: 5px;
+}
+#rg{
+    width: 50%;
+    padding: 30px;
+    
+}
+#ok{
+    padding: 20px;
+    
+}
+button{
+    size: x-larger;
+    color: brown;
+}
