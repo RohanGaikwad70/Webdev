@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Rohan Gaikwad</h1>
+
+    </header>
+    <nav>
+        <ul>
+            <li><i class="fa fa-home"></i>Home </li>
+            <li><i class="fa fa-user"></i>About Us</li>
+            <li><i class="fa fa-phone"></i>Contact</li>
+            <li><i class="fa fa-list"></i>Section</li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="Aboutus">
+            <h2>About US</h2>
+
+
+
+            <div class="main">
+                <div class="sub1" id="1">
+                    <img src="./rg.jpg" style="width:100%">
+                    <img src="./rg.jpg" style="width:100%">
+                </div>
+
+                <div class="sub1" id="2">
+                    <h3>company name</h3>
+                    <p1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam odit quas alias nisi sed adipisci quia dolores quo officia deserunt eos debitis ad sequi voluptas ex sint quam ipsa, eligendi voluptatum iure nemo dolore odio. Cumque minima saepe distinctio voluptas consequuntur quidem architecto fugit aperiam amet labore assumenda, recusandae atque iste ipsum quibusdam illum minus eos, cupiditate aspernatur. Velit aperiam voluptatem ipsam aut facere. Nobis tenetur ducimus eum porro exercitationem, officiis tempore ratione molestias itaque assumenda dicta magnam vero fugiat perferendis non in qui consectetur nisi. Ut sequi voluptates blanditiis dolores, soluta dolorum. Perferendis eveniet libero accusamus laborum beatae molestias exercitationem aliquid, nulla ipsa at vel animi quam hic delectus doloremque voluptatibus id fugiat possimus a, neque itaque. Praesentium inventore minus velit nisi facere numquam veniam iusto. Fugiat vitae reiciendis iste reprehenderit accusamus temporibus dignissimos, exercitationem corporis quos? Placeat reiciendis doloribus omnis eaque, neque ullam magni aliquam officia iure vitae odio eius dignissimos aperiam quae quam? Sint nobis recusandae facilis nam exercitationem id, incidunt eum praesentium vel ipsa ea quasi sequi neque quam provident obcaecati voluptatibus, culpa distinctio, expedita quibusdam hic. Explicabo quaerat repellendus, voluptas corporis nisi aliquam pariatur quis nemo voluptates commodi. Harum, repudiandae? Alias voluptate illo cum labore delectus, explicabo totam. Vitae aspernatur unde corrupti soluta eius! Necessitatibus a odio commodi incidunt amet eius hic obcaecati, pariatur excepturi aliquid quisquam officiis assumenda ut deleniti voluptatem blanditiis labore debitis numquam illo eum dolor. Aut dignissimos nobis, quasi neque ab, illum ex reprehenderit cum et necessitatibus, possimus debitis nam. Sunt non, id illum corporis amet suscipit veritatis reiciendis eaque? Enim reiciendis similique necessitatibus, autem consequuntur, et neque omnis adipisci non illum, vitae aliquam maxime beatae voluptatum dicta voluptatem sunt nobis debitis! Repellat, eos nulla praesentium sint et corrupti laborum earum exercitationem, molestiae sunt culpa. Et reprehenderit, molestiae laudantium aliquid, debitis, amet enim ipsum commodi libero provident id. Placeat eos pariatur debitis ex necessitatibus facilis iure fuga natus ipsam, quod, quibusdam assumenda! Itaque cumque veritatis tempora facilis consectetur iste eum ducimus recusandae nam sed nulla non unde provident hic, dicta velit cum libero illum, eveniet magni. Quos, id? Libero excepturi delectus dolor error modi vero ad nulla magni illo, quod sit exercitationem nemo, tenetur enim repudiandae accusantium? Quod, doloribus neque nulla aut, laboriosam iste, soluta accusamus tempore eveniet architecto ipsam possimus excepturi vitae molestias repudiandae nemo veritatis a minus ipsa numquam dolor! Iure non cupiditate facere ipsam, laudantium tenetur sit magni, modi fugit distinctio quo facilis voluptas velit fugiat, praesentium sint enim iste rem cumque. Dolores cum nam deserunt quidem dolorum? Dicta omnis eveniet laborum sapiente qui eligendi quidem soluta architecto adipisci rerum ullam maxime eos quaerat voluptatum eius consequatur quam animi minima fugiat, ducimus dolores odio libero magni? Quisquam, ratione? Minima cum architecto eligendi quisquam molestiae cumque ipsam nobis, odio explicabo ad sit, vitae incidunt consectetur facere quos quis? Voluptas officia atque tenetur quia quod repellat sed accusamus saepe, praesentium similique delectus vitae corrupti neque at rem, molestiae magnam dolores commodi minima esse repellendus? Tempora deleniti quasi eos voluptates neque!</p1>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <section id="section">
+    
+            <h1>Our Services</h1>
+            <div class="our">
+
+
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
