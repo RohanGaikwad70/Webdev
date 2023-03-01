@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Structure</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    body{
+      padding: 15px;
+    }
+    header,footer{
+      height:100px;
+      background-color: black;
+      color: white;
+      padding: 15px;
+    }
+    h1{
+      text-align: center;
+      text-transform: uppercase;
+    }
+    nav ul li{
+      display: inline-flex;
+      padding: 15px;
+    }
+    nav{
+      background-color: red;
+      position: sticky;
+      top:0;
+      color:black;
+    }
+    nav a{
+      text-decoration: none;
+      color:white
+    }
+    main:after{
+      /* content: "";
+      display: table;
+      clear: both; */
+    } 
+    .row:after{
+      /* content: "";
+      display: table;
+      clear: both; */
+    }
+    main,.row{
+      border:2px solid black;
+      display: inline-flex;
+      margin-bottom: 15px;
+    }
+    aside{
+      background-color: black;
+      color: white;
+      width:25%;
+      float: left;
+      padding: 15px;
+    }
+    aside p{
+      text-align: justify;
+    }
+    section{
+      width: 75%;
+      background-color: white;
+      color: black;
+      float: left;
+      padding: 15px;
+    }
+    .col-50{
+      width: 50%;
+      float: left;
+      border:2px solid white;
+      padding: 15px;
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>header</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="home.html"> <i class="fa fa-home"></i> Home</a></li>
+      <li><a href="home.html"> <i class="fa fa-user"></i> About Us</a></li>
+      <li><a href="home.html"> <i class="fa fa-list"></i> Services</a></li>
+      <li><a href="home.html"> <i class="fa fa-image"></i> Gallery</a></li>
+      <li><a href="home.html"> <i class="fa fa-phone"></i> Contact us</a></li>
+    </ul>
+  </nav>
+  <main>
+    <aside>
+        <h1>Aside bar</h1>
+        <marquee behavior="scroll" direction="up" scrollamount="20">
+          <img src="img/a.jpg" alt=""  style="height: 150px;width: 100%;">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat adipisci excepturi ratione optio obcaecati necessitatibus reiciendis eos libero ipsa iure laborum magnam, fugit assumenda, laboriosam dicta facilis perferendis atque ullam cupiditate debitis
+          </p>
+        </marquee>
+    </aside>
+    <section>
+      <h1>Main Section</h1>
+        <div class="row">
+          <div class="col-50">
+            <h1>Sub section 1</h1>
+              <img src="img/a.jpg" alt="" height="180" width="100%">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ducimus possimus voluptatibus est quidem tempora.</p>
+          </div>
+          <div class="col-50">
+            <h1>Sub section 2</h1>
+            <img src="img/a.jpg" alt="" height="180" width="100%">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ducimus possimus voluptatibus est quidem tempora.</p>
+        </div> 
+    </div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis veniam beatae sequi soluta error, totam iure quae aspernatur saepe. Impedit numquam non iusto, dicta officiis vel blanditiis consequuntur, amet dolorem at esse. Soluta atque quia error neque labore, ad sequi reiciendis illo natus voluptatum, rem earum dolore doloribus iure culpa provident necessitatibus quos incidunt aliquid! Sit voluptates molestiae at, dolore mollitia consequatur expedita odit omnis ad neque optio eum repellat sed quos earum obcaecati, deleniti laborum quod impedit enim doloremque saepe sequi! Alias quasi eius aspernatur recusandae laborum eveniet, itaque numquam nam vel necessitatibus quis minima voluptates neque nobis, quidem consequuntur illo tempore rerum pariatur ex, modi aliquam magnam atque commodi. Iusto, debitis similique nihil quas praesentium quasi magnam qui vero! Cumque architecto doloribus excepturi pariatur est nam quibusdam vitae dolorum sit, quae in provident, voluptatibus deleniti minus esse ab sapiente sint nisi? Velit, doloribus! Ratione quod cum corporis odio.</p>
+    </section>
+  </main>
+  <footer>
+       <h1 style="text-align: center;text-transform: capitalize;"> <i class="fa fa-globe"></i> develop by xyz @2022-2023. all right reserved.</h1>
+  </footer>
+</body>
+</html>
